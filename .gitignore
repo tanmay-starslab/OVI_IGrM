@@ -1,0 +1,19 @@
+# 1. Ignore everything
+*
+
+# 2. Un-ignore directories so Git can look inside them
+!*/
+
+# 3. Include only Python and Jupyter Notebook files
+!*.py
+!*.ipynb
+
+# 4. Ignore the venv 
+/igrm/
+
+Code/igrm_sol_plots.ipynb
+Code/igrm_sol_plots (Tanmay Singh's conflicted copy 2025-02-05).ipynb
+Code/igrm_sol_plots (Tanmay Singh's conflicted copy 2025-01-31).ipynb
+
+# 4. Keep the .gitignore file itself
+!/.gitignore
